@@ -5,7 +5,7 @@ A command-line tool to search for JSON keys matching a given pattern with option
 
 ## Demo
 
-![Output GIF](output.gif)
+![Output GIF](grepjson.gif)
 ## Installation
 
 To install `grepjson`, run the following command:
