@@ -2,6 +2,10 @@
 
 A command-line tool to search for JSON keys matching a given pattern with optional fuzzy matching based on Levenshtein distance.
 
+
+## Demo
+
+![Output GIF](output.gif)
 ## Installation
 
 To install `grepjson`, run the following command:
