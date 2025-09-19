@@ -12,7 +12,7 @@ go.work
 
 # Dependency directories
 vendor/
-bin/
+/bin/
 pkg/
 
 # IDE specific files
@@ -47,6 +47,6 @@ debug
 ehthumbs.db
 Thumbs.db
 
-# Go module files (but keep go.mod and go.sum)
-/go.sum
-/go.mod
+
+
+
