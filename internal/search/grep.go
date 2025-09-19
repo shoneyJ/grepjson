@@ -12,8 +12,7 @@ func GrepJSON(jsonBytes []byte, keyPattern string, maxDistance int) ([]MatchResu
 		return nil, fmt.Errorf("failed to parse JSON: %w", err)
 	}
 
-	results := make([]MatchResult, 0)
-	searchRecursive(data, keyPattern, "", &results, maxDistance)
+	results := searchConcurrent(data, keyPattern, maxDistance)
 
 	return results, nil
 }
